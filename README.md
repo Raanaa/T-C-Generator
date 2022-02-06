@@ -1,6 +1,6 @@
 # T-C-Generator
 
-I think it tooks **6 hours** , I coded it on my holiday
+I think it tooks **6 hours** , I coded it on my weekend
 
 T&C Generator Transforms the template into a Document expanding the template tags into their representation using the dataset
 
