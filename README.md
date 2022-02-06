@@ -1,6 +1,8 @@
 # T-C-Generator
 
-Transforms the template into a Document expanding the template tags into their rappresentation using the dataset
+I think it tooks **6 hours** , I coded it on my holiday
+
+T&C Generator Transforms the template into a Document expanding the template tags into their rappresentation using the dataset
 
 The T&C generator is software which given:    
 - A template
@@ -25,8 +27,14 @@ The tags supported are:
    6 - now ready to run T&C generator :: **$ ruby generator.rb**                  
    7 - congratulations, you will find your **T&C.txt** file created :D               
    
-### How to setup and run automated tests
+### How to run automated tests
    $ gem install rspec           
    $ rspec spec/generator_spec.rb            
- 
    
+### Design decisions and code scenarios::
+we start by reading clauses_hash, sections_hash and template plaintext line by line     
+and only if this line includes clauses or sections tag we start to find the corosponding clause or section     
+-- if we meet a clause tag we start searching about the text mapped to this tag id       
+-- if we meet a section tag we start by searching about this sections clauses and then get their texts      
+finally we replace these text by those tags and create our **T&C.txt** file     
+
