@@ -2,7 +2,7 @@
 
 I think it tooks **6 hours** , I coded it on my holiday
 
-T&C Generator Transforms the template into a Document expanding the template tags into their rappresentation using the dataset
+T&C Generator Transforms the template into a Document expanding the template tags into their representation using the dataset
 
 The T&C generator is software which given:    
 - A template
