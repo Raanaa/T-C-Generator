@@ -38,3 +38,5 @@ and only if this line includes clauses or sections tag we start to find the coro
 -- if we meet a section tag we start by searching about this sections clauses and then get their texts      
 finally we replace these text by those tags and create our **T&C.txt** file     
 
+
+##### ruby version: 2.4.1
